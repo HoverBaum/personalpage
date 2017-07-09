@@ -1,0 +1,37 @@
+#port {
+	background-image: url("images/port.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#name {
+	color: #334a5e;
+}
+
+.toggle {
+	display: none;
+}
+
+/*
+	Feedback for contact form
+*/
+
+#contactAlertContainer div {
+	padding: 1em;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#contactAlertContainer .fail {
+	background-color: #EE1323;
+}
+
+#contactAlertContainer .succ {
+	background-color: #7CE635;
+}
+
+.blog-entry img {
+	width: 100%;
+}
