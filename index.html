@@ -125,7 +125,7 @@
 
         const maxBlogposts = 5
 		const blogWrapperId = '#blog'
-		$.get('http://127.0.0.1/hendrikwallbaum/getBlogPosts.php').then(e => {
+		$.get('http://127.0.0.1/personalpage/getBlogPosts.php').then(e => {
 
 			$("#blogProgress").hide()
 			const entries = JSON.parse(e).entry
