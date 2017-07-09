@@ -2,10 +2,13 @@
   "name": "personal_meilidu",
   "version": "0.1.0",
   "scripts": {
-    "stylus": "node node_modules/stylus/bin/stylus styl/style.styl -o css/style.css --watch",
-    "compile-stylus": "node node_modules/stylus/bin/stylus styl/style.styl -o css/style.css"
+    "stylus": "stylus styl/style.styl -o css/style.css --watch",
+    "compile-stylus": "node node_modules/stylus/bin/stylus styl/style.styl -o css/style.css",
+    "serve": "live-server",
+    "start": "concurrently \"npm run stylus\" \"npm run serve\""
   },
   "devDependencies": {
+    "live-server": "^1.2.0",
     "stylus": "^0.54.5"
   },
   "dependencies": {}
