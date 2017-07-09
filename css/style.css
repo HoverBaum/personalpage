@@ -1,22 +1,3 @@
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/Noto_Serif/NotoSerif-Regular.ttf");
-  font-style: normal;
-}
-@font-face {
-  font-familiy: "Inconsolata";
-  src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
-}
 html {
   font-size: 1em;
 }
@@ -38,25 +19,6 @@ h5 {
 p {
   font-size: 1em;
 }
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/Noto_Serif/NotoSerif-Regular.ttf");
-  font-style: normal;
-}
-@font-face {
-  font-familiy: "Inconsolata";
-  src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
-}
 ::-webkit-scrollbar {
   width: 0.5rem;
 }
@@ -66,25 +28,6 @@ height: 0.5rem,
 }
 ::-webkit-scrollbar-thumb {
   background-color: #33474d;
-}
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/Noto_Serif/NotoSerif-Regular.ttf");
-  font-style: normal;
-}
-@font-face {
-  font-familiy: "Inconsolata";
-  src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
 }
 .header {
   background-image: url("../img/header.jpg");
@@ -199,25 +142,6 @@ height: 0.5rem,
 }
 .header__link:hover:visited {
   color: #33474d;
-}
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/Noto_Serif/NotoSerif-Regular.ttf");
-  font-style: normal;
-}
-@font-face {
-  font-familiy: "Inconsolata";
-  src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
 }
 article {
   width: 60rem;
@@ -523,25 +447,6 @@ iframe {
 }
 article .different-posts {
   margin-top: 4rem;
-}
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Noto Sans";
-  src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Noto Serif";
-  src: url("fonts/Noto_Serif/NotoSerif-Regular.ttf");
-  font-style: normal;
-}
-@font-face {
-  font-familiy: "Inconsolata";
-  src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
 }
 article:hover > p > a {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
