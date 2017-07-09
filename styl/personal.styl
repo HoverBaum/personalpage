@@ -1,0 +1,48 @@
+@import "variables"
+@import "underline"
+
+article
+	&:hover > p > a
+		link-underline(backgroundColor, mainColor, mainColor)
+	h1, h2
+		font-weight: 300
+	h1::before
+		content: "-"
+		position: absolute
+		left: -0.5em
+
+.indented-link
+	@media all and (min-width: breakMobile)
+		margin-left: 2%
+
+.portrait
+	float: right
+	width: 50%
+	padding: 2rem
+	margin: 0
+
+.intro
+	margin-top: 3em
+	p
+		font-size: 150%
+
+.portfolio-wrapper
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: space-around
+	align-content: space-around
+	.portfolio
+		.portfolio__header
+			margin-bottom: 1em
+		.portfolio__title
+			height: 1.5em
+			overflow: hidden
+			margin-bottom: 0
+		.portfolio__subtitle
+			color: greyishBlue
+			opacity: 0.8
+		.portfolio__image
+			width: 100%
+		@media all and (min-width: breakMobile)
+			width: 30%

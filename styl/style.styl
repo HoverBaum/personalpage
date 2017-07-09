@@ -1,0 +1,52 @@
+@import "variables"
+@import "headers"
+@import "underline"
+@import "scrollbar"
+@import "header"
+@import "article"
+@import "personal"
+
+body,
+html
+	padding: 0
+	margin: 0
+
+body
+	font-family: "Noto Sans"
+	color: textColor
+	display: flex
+	flex-direction: column
+
+@media only screen and (max-width: breakMobile)
+	html
+		font-size: 90%
+
+main
+	width: 100%
+	padding-bottom: 4rem
+	display: flex
+	flex-grow: 1
+	flex-direction: row
+	justify-content: center
+	flex-wrap: wrap
+
+main > h1
+	width: 100%
+	text-align: center
+
+a
+	text-decoration: none
+	color: textColor
+
+a:visited
+	color: currentColor
+
+a:hover
+	link-underline(backgroundColor, mainColor, mainColor)
+
+
+//Center articles even on huge screen
+@media screen and (min-width: 100 rem)
+	article
+		margin-left: 20rem
+		margin-right: 20rem
