@@ -591,6 +591,10 @@ a:hover:before {
 a:hover:visited {
   color: #0ba6d7;
 }
+#blogPostsWrapper .portfolio .summary {
+  max-height: 12em;
+  overflow: hidden;
+}
 @media screen and (min-width: 100rem) {
   article {
     margin-left: 20rem;

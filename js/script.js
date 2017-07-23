@@ -17,7 +17,7 @@ get(blogUrl, (rss) => {
             return html + `
                 <section class="portfolio">
                     <h2 class="portfolio__title"><a href="${post.id}">${post.title}</a></h2>
-                    ${generatePostSummary(post, rss.id)}
+                    <div class="summary">${generatePostSummary(post, rss.id)}</div>
                     <p>
                         <a href="${post.id}">&hellip; weiter</a>
                     </p>
