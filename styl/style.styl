@@ -4,7 +4,9 @@
 @import "scrollbar"
 @import "header"
 @import "article"
+@import "footer"
 @import "personal"
+@import "../resources/icomoon/style"
 
 body,
 html
@@ -43,6 +45,17 @@ a:visited
 
 a:hover
 	link-underline(backgroundColor, mainColor, mainColor)
+
+.social
+	a
+		text-decoration: none
+		text-shadow: none
+		background-image: none
+		color: mainColor
+		margin-right: 1rem
+		i
+			color: inherit
+			font-size: 1.5rem
 
 #blogPostsWrapper
 	.portfolio
