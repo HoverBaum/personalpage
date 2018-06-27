@@ -62,7 +62,7 @@
                 <p class=flow-text>Ihr erreicht mich unter <a href=mailto:mail@hendrikwallbaum.de>mail[at]hendrikwallbaum.de</a> oder über das Formular hier auf der Seite.</p>
             </div>
             <div class="col l8 m12">
-                <form method=post action=sendMail.php>
+                <form netlify>
                     <div class=row>
                         <div class="col s12 m6 input-field">
                             <input type=text name=name id=name placeholder=Name required>
@@ -106,23 +106,6 @@
     </footer>
     <script src=/js/portfolio.js></script>
     <script>
-        $("form").each(function() {
-            $(this).submit(function(e) {
-                e.preventDefault(), $.ajax({
-                    type: "POST",
-                    url: $(this).attr("action"),
-                    data: $(this).serialize()
-                }).done(function(e) {
-                    console.log("Ajax response: " + e);
-                    var t = e.split("|"),
-                        o = "0" === e[0] ? "fail" : "succ",
-                        i = $('<div class="col s12 ' + o + '">' + t[1] + "</div>");
-                    i.click(function() {
-                        $(this).slideUp(300)
-                    }), $("#contactAlertContainer").append(i)
-                })
-            })
-        });
 
         const maxBlogposts = 5
 		const blogWrapperId = '#blog'
