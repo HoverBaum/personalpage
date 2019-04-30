@@ -587,11 +587,6 @@ article h1,
 article h2 {
   font-weight: 300;
 }
-article h1::before {
-  content: "-";
-  position: absolute;
-  left: -0.5em;
-}
 @media all and (min-width: 40em) {
   .indented-link {
     margin-left: 2%;
@@ -634,6 +629,14 @@ article h1::before {
 @media all and (min-width: 40em) {
   .portfolio-wrapper .portfolio {
     width: 30%;
+  }
+}
+#blogPostsWrapper .blogpost {
+  width: 80%;
+}
+@media (max-width: 50rem) {
+  #blogPostsWrapper .blogpost {
+    width: 100%;
   }
 }
 @font-face {
@@ -790,10 +793,6 @@ a:hover:visited {
 .social a i {
   color: inherit;
   font-size: 1.5rem;
-}
-#blogPostsWrapper .portfolio .summary {
-  max-height: 12em;
-  overflow: hidden;
 }
 @media screen and (min-width: 100rem) {
   article {

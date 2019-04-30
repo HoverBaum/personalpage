@@ -6,10 +6,6 @@ article
 		link-underline(backgroundColor, mainColor, mainColor)
 	h1, h2
 		font-weight: 300
-	h1::before
-		content: "-"
-		position: absolute
-		left: -0.5em
 
 .indented-link
 	@media all and (min-width: breakMobile)
@@ -46,3 +42,10 @@ article
 			width: 100%
 		@media all and (min-width: breakMobile)
 			width: 30%
+
+#blogPostsWrapper
+	.blogpost
+		width: 80%
+	@media (max-width: 50rem)
+		.blogpost
+			width: 100%

@@ -15,11 +15,11 @@ get(blogUrl, (rss) => {
         .slice(0, maxBlogPosts)
         .reduce((html, post) => {
             return html + `
-                <section class="portfolio">
-                    <h2 class="portfolio__title"><a href="${post.id}">${post.title}</a></h2>
-                    <div class="summary">${generatePostSummary(post, rss.id)}</div>
+                <section class="blogpost">
+                    <h2 class="blogpost__title"><a href="${post.id}">${post.title}</a></h2>
+                    <div class="blogpost__summary">${generatePostSummary(post, rss.id)}</div>
                     <p>
-                        <a href="${post.id}">&hellip; weiter</a>
+                        <a href="${post.id}">&hellip; weiterlesen</a>
                     </p>
                 </section>
             `
