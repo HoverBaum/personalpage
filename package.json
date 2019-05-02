@@ -1,0 +1,25 @@
+{
+  "name": "personalpage",
+  "version": "1.0.0",
+  "description": "My personal page available at: http://hendrikwallbaum.de/",
+  "scripts": {
+    "dev:serve": "live-server src",
+    "dev:stylus": "stylus src/styl -o src/css -w",
+    "start": "concurrently npm:dev:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoverBaum/personalpage.git"
+  },
+  "author": "Hendrik Wallbaum <mail@hendrikwallbaum.de>",
+  "bugs": {
+    "url": "https://github.com/HoverBaum/personalpage/issues"
+  },
+  "homepage": "https://hendrikwallbaum.de/",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "live-server": "^1.2.1",
+    "stylus": "^0.54.5"
+  }
+}

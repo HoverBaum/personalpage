@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hendrik Wallbaum</title>
+  <link rel="alternate" href="/en" hreflang="en" />
+  <!-- Robot font from Google -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <!-- FontAwesome, but only the brand icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+  <!-- Our own styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <main class="wrapper">
+    
+    <hgroup class="page-headline">
+      <h1>Hendrik Wallbaum</h1>
+      <p>Intrapreneur. Webdev. Rollenspieler.</p>
+    </hgroup>
+    
+    <!-- Main personal description -->
+    <section>
+      
+      <figure class="portrait">
+        <img src="/images/portrait.jpg">
+        <figcaption>Hendrik 2016 in China</figcaption>
+      </figure>
+      
+      <p>JS Enthusiast, Intrapreneur und leidenschaftlicher Rollenspieler. Meine Zeit verbringe ich gerne mit Resien und ständig neuen Projekten, über die ihr unten mehr lesen könnt.</p>
+      
+      <p>Nach meinem Entrepreneurship in Digital Technologien Studium an der Universität zu Lübeck begann ich 2017 als Consultant zu arbeiten. In dieser Position helfe ich Unternehmen im Raum Hamburg ihre technischen Projekte um zu setzen und Ziele zu erreichen. Dabei bin ich aktiver Teil des Entwickler Teams und helfe darüber hinaus dem Unternehmen seine Vorhaben zu verwirklichen, in dem ich die Rollen einnehmen, die Momentan gebraucht werden. Diese reichen von Entwickler über Team Lead und Product Owner bis hin zum Agile Coach.</p>
+      
+      <p>Schon immer habe ich mich gerne engagiert. In der Schule, der Kirche und in der Studierendenschaft. Heute dafür, in Unternehmen eine DevOps-Kultur zu verbreiten, schnelle Itterationen in der Entwicklung zu ermöglichen und Gräben zwischen Teams, so wie zwischen Entwicklern und Management ab zu bauen.</p>
+      
+      <p>Schaut gerne auch auf meinen Blog <a href="http://hoverbaum.gitlab.io">HoverBaum.net</a> vorbei.</p>  
+      
+    </section>
+    <!-- END personal description -->
+    
+    <hr />
+
+    <!-- Social icons -->
+    <section>
+      <h2>Im Netz</h2>
+      
+      <ul class="social-icons">
+        <li>
+          <a href="https://github.com/HoverBaum">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/HoverBaum">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/hendrik-wallbaum-196432113/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.xing.com/profile/Hendrik_Wallbaum2">
+            <i class="fab fa-xing"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://medium.com/@hendrikwallbaum">
+            <i class="fab fa-medium-m"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>Ihr findet Talks, die ich gegeben habe unter: <a href="https://talks.hoverbaum.net/">talks.hoverbaum.net</a>.</p>
+    </section>
+    <!-- END social icons -->
+    
+    <hr />
+
+    <!-- Projects -->
+    <section>
+      <h2>Meine Projekte</h2>
+      <p>Eine Auswahl von Privaten Projekten, mit denen ich mir schon die Zeit vertrieben habe.</p>
+      <div id="projects" class="projects">
+        <!-- Shows a loading animation until JS replaces it -->
+        <div class="linear-activity">
+          <div class="indeterminate"></div>
+        </div>
+      </div>
+    </section>
+    <!-- END Projects -->
+
+    <hr />
+
+    <!-- Contact and extras -->
+    <section>
+      <h2>Kontakt</h2>
+      <p>Ihr könnt mich erreichen unter: <a href="mailto:mail@hendrikwallbaum.de">Mail[at]HendrikWallbaum.de</a>.</p>
+    </section>
+    <!-- End Contact -->
+
+  </main>
+  <!-- END main -->
+
+  <footer>
+    <div class="wrapper">
+      <p>Quellcode auf <a href="https://github.com/HoverBaum/personalpage">GitHub</a> | <a href="/impressum.html" target="_blank" rel=”nofollow”>Impressum</a> | <a href="/en">English version</a></p>
+    </div>
+  </footer>
+  
+  <!-- Include our scripts for projects and blogposts -->
+  <script src="/js/index.js"></script>
+  <script>
+    window.displayProjects('/js/projects.json')
+  </script>
+</body>
+</html>

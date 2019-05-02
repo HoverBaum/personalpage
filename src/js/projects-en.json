@@ -1,0 +1,33 @@
+[{
+  "title": "MeiliDu",
+  "subtitle": "Hexo theme",
+  "description": "A elegant theme for the static-site-generator Hexo that emphathises text and code.",
+  "imageUrl": "/images/projects/meilidu.jpg",
+  "link": {
+    "url": "https://meilidu.github.io/",
+    "text": "MeiliDu Demo"
+  }
+}, {
+  "title": "Browser based games",
+  "subtitle": "Game",
+  "description": "Simple video games with random endless levels you play in your browser. (Not optimized for mobile.)",
+  "imageUrl": "/images/projects/browserbasedgames.jpg",
+  "link": {
+    "url": "http://browserbasedgames.net/",
+    "text": "BrowserBasedGames"
+  }
+}, {
+  "title": "BlankUp",
+  "subtitle": "Markdown Editor",
+  "description": "Sleep markdown editor based on Electron and thus cross plattform compatible.",
+  "imageUrl": "/images/projects/blankUp.png",
+  "link": {
+    "url": "https://hoverbaum.github.io/BlankUp-Electron/",
+    "text": "BlankUp"
+  }
+}, {
+  "title": "LoL Wishes",
+  "subtitle": "Community Tool",
+  "description": "A shut down website that enabled users to browse skins from League of Legends and setup notifications for sales.",
+  "imageUrl": "/images/projects/lolwishes.jpg"
+}]

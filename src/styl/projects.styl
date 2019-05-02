@@ -1,0 +1,21 @@
+.projects
+  display flex
+  flex-direction row
+  flex-wrap wrap
+  justify-content space-between
+  .project
+    width: 30%
+    @media screen and (max-width: $max-for-small)  {
+      width 100%
+    }
+    &__image
+      width: 100%
+    &__title
+      // on big screens title might have two lines
+      height 2.2em
+      margin-bottom 0.5rem
+      @media screen and (max-width: $max-for-small)  {
+        height 1em
+      }
+    &__subtitle
+      font-size ($base-font-size / $font-size-multiplier)
