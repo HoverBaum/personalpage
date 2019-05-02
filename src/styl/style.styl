@@ -24,6 +24,23 @@ p
 
 a
   color $accent-color
+  position relative
+  .tooltip
+    padding 0.5rem
+    background-color rgba(0,0,0,0.9)
+    border-radius 0.2rem
+    color white
+    position absolute
+    left 50%
+    top 1.7em
+    transform translateX(-50%)
+    display none
+    opacity 0
+  &:hover .tooltip
+    display block
+    opacity 1
+    transition all 0.3s ease-out
+
 
 h1, h2, h3
   font-weight 400
