@@ -1,4 +1,13 @@
 [{
+  "title": "The Sword",
+  "subtitle": "Interactive fiction",
+  "description": "Web based game in which you journey to find out whether you are worth being king.",
+  "imageUrl": "/images/projects/the_sword.jpg",
+  "link": {
+    "url": "https://hoverbaum.itch.io/the-sword",
+    "text": "Play on itch"
+  }
+},{
   "title": "MeiliDu",
   "subtitle": "Hexo theme",
   "description": "A elegant theme for the static-site-generator Hexo that emphathises text and code.",
