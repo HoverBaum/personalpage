@@ -1,33 +1,48 @@
-[{
-  "title": "MeiliDu",
-  "subtitle": "Hexo theme",
-  "description": "Ein schlichtes Theme für den Static-Site-Generator Hexo, dass sich auf Texte und Code als Bloginhalt spezialisiert.",
-  "imageUrl": "/images/projects/meilidu.jpg",
-  "link": {
-    "url": "https://meilidu.github.io/",
-    "text": "MeiliDu Demo"
+[
+  {
+    "title": "The Sword",
+    "subtitle": "Interactive fiction",
+    "description": "Web basiertes interaktives Text-Adventure um die Trohnnachfolge.",
+    "imageUrl": "/images/projects/the_sword.jpg",
+    "link": {
+      "url": "https://hoverbaum.itch.io/the-sword",
+      "text": "Play on itch"
+    }
+  },
+  {
+    "title": "MeiliDu",
+    "subtitle": "Hexo theme",
+    "description": "Ein schlichtes Theme für den Static-Site-Generator Hexo, dass sich auf Texte und Code als Bloginhalt spezialisiert.",
+    "imageUrl": "/images/projects/meilidu.jpg",
+    "link": {
+      "url": "https://meilidu.github.io/",
+      "text": "MeiliDu Demo"
+    }
+  },
+  {
+    "title": "Browser based games",
+    "subtitle": "Spiele",
+    "description": "Kleine Videospiele, meist mit zufallsgenerierten, endlosen Leveln, die im Browser gespielt werden können. (Nicht für Mobile Endgeräte optimiert.)",
+    "imageUrl": "/images/projects/browserbasedgames.jpg",
+    "link": {
+      "url": "http://browserbasedgames.net/",
+      "text": "BrowserBasedGames"
+    }
+  },
+  {
+    "title": "BlankUp",
+    "subtitle": "Markdown Editor",
+    "description": "Schlichter Markdown Editor für alle Betriebssysteme, basierend auf Electron.",
+    "imageUrl": "/images/projects/blankUp.png",
+    "link": {
+      "url": "https://hoverbaum.github.io/BlankUp-Electron/",
+      "text": "BlankUp"
+    }
+  },
+  {
+    "title": "LoL Wishes",
+    "subtitle": "Community Tool",
+    "description": "Eine mittlerweile eingestellte Website, die Nutzer so genannte Skins für League of Legends betrachten und Benachichtigungen für Sales einrichten lässt.",
+    "imageUrl": "/images/projects/lolwishes.jpg"
   }
-}, {
-  "title": "Browser based games",
-  "subtitle": "Spiele",
-  "description": "Kleine Videospiele, meist mit zufallsgenerierten, endlosen Leveln, die im Browser gespielt werden können. (Nicht für Mobile Endgeräte optimiert.)",
-  "imageUrl": "/images/projects/browserbasedgames.jpg",
-  "link": {
-    "url": "http://browserbasedgames.net/",
-    "text": "BrowserBasedGames"
-  }
-}, {
-  "title": "BlankUp",
-  "subtitle": "Markdown Editor",
-  "description": "Schlichter Markdown Editor für alle Betriebssysteme, basierend auf Electron.",
-  "imageUrl": "/images/projects/blankUp.png",
-  "link": {
-    "url": "https://hoverbaum.github.io/BlankUp-Electron/",
-    "text": "BlankUp"
-  }
-}, {
-  "title": "LoL Wishes",
-  "subtitle": "Community Tool",
-  "description": "Eine mittlerweile eingestellte Website, die Nutzer so genannte Skins für League of Legends betrachten und Benachichtigungen für Sales einrichten lässt.",
-  "imageUrl": "/images/projects/lolwishes.jpg"
-}]
+]
